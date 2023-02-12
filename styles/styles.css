@@ -1,0 +1,151 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main {
+  padding: 71px 24px;
+  display: grid;
+  gap: 24px;
+}
+main .daniel {
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 0 right 24px;
+  background-color: #733fc8;
+}
+main .daniel .card__image {
+  border: 2px solid #a775f1;
+}
+main .daniel .card__name {
+  color: #ffffff;
+}
+main .daniel .card__verified {
+  color: #ffffff;
+}
+main .daniel .card__heading {
+  color: #ffffff;
+}
+main .daniel .card__para {
+  color: #cfcfcf;
+}
+main .jonathan {
+  background: #48556a;
+}
+main .jonathan .card__name {
+  color: #ffffff;
+}
+main .jonathan .card__verified {
+  color: #ffffff;
+}
+main .jonathan .card__heading {
+  color: #ffffff;
+}
+main .jonathan .card__para {
+  color: #ffffff;
+}
+main .jeanette {
+  background: #ffffff;
+}
+main .jeanette .card__name {
+  color: #48556a;
+}
+main .jeanette .card__verified {
+  color: #48556a;
+}
+main .jeanette .card__heading {
+  color: #48556a;
+}
+main .jeanette .card__para {
+  color: #48556a;
+}
+main .patrick {
+  background: #19202d;
+}
+main .patrick .card__image {
+  border: 2px solid #733fc8;
+}
+main .patrick .card__name {
+  color: #ffffff;
+}
+main .patrick .card__verified {
+  color: #ffffff;
+}
+main .patrick .card__heading {
+  color: #ecf2f8;
+}
+main .patrick .card__para {
+  color: #ffffff;
+}
+main .kira {
+  background: #ffffff;
+}
+main .kira .card__name {
+  color: #48556a;
+}
+main .kira .card__verified {
+  color: #48556a;
+}
+main .kira .card__heading {
+  color: #48556a;
+}
+main .kira .card__para {
+  color: #48556a;
+}
+main .card {
+  padding: 26px 32px 32px 32px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+}
+main .card__info {
+  display: flex;
+  align-items: cneter;
+}
+main .card__image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+main .card .name-and-verified {
+  margin-left: 17px;
+}
+main .card__name {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+}
+main .card__verified {
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+main .card__heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 18px;
+}
+main .card__para {
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}/*# sourceMappingURL=styles.css.map */
